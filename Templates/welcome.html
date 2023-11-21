@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Plagiarism Detection Results</title>
+    <!-- Add your CSS styles here -->
+    <style>
+        /* Add your styles here */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            text-align: center;
+            margin: 0;
+            padding: 30px;
+        }
+        h1 {
+            color: #333333;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Plagiarism Detection Results</h1>
+    <ul>
+        {% for data in plagiarism_results %}
+            <li>
+                <p>Files compared: {{ data[0] }} and {{ data[1] }}</p>
+                <p>Percentage Similarity: {{ data[2]|round(2) }}%</p>
+            </li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
