@@ -7,3 +7,7 @@ The following project is implemented using Python as the programming language. S
 3. Login for a particular user
 4. Cross checking files using the Machine Learning algorithm to get a similarity score
 5. Displaying a user-friendly view of the results on the web application
+
+## Note 
+
+- There are 6 additional factorial.c files and fibonacci.c files for the sake of explanation and demonstration of the program which would effectively identify plagiarism in C code.
