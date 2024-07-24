@@ -6,7 +6,7 @@ A plagiarism checker that uses Term Frequency-Inverse Document Frequency (TF-IDF
 Clone this repository to your system with the following command in your Git GUI:
 
 ```
-git clone https://github.com/Nischal56/Hotel_Booking.git
+git clone https://github.com/nischalkashyap56/Plagiarism-Checker.git
 ```
 
 ## Functionalities
